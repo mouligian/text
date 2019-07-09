@@ -3,4 +3,6 @@ SET SIP_CONTROLLER_LIST rw1.tidewell.org:5061;transport=tls,rw2:5061;transport=t
 SET SIPDOMAIN hospice.local
 SET SIPUSERNAME ""
 SET SIPPASSWORD ""
+SET TRUSTCERTS "SBCE_ID.cer","IPO_ASBCE_Identity.crt","Root.cer","IPO_Root.pem",
+"CustomerApp.cer","IPOASBCE.crt","CustomerRoot.cer","IPORAND.crt"
 END
