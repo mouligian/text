@@ -3,5 +3,4 @@ SET SIP_CONTROLLER_LIST rw1.tidewell.org:5061;transport=tls,rw2:5061;transport=t
 SET SIPDOMAIN hospice.local
 SET SIPUSERNAME ""
 SET SIPPASSWORD ""
-SET CONFERENCE_FACTORY_URI "10.2.61.15@hospice.local"
 END
