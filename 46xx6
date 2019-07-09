@@ -1,4 +1,5 @@
 SET SIPENABLED "1"
+SET ENABLE_IPOFFICE 1
 SET SIP_CONTROLLER_LIST rw1.tidewell.org:5061;transport=tls,rw2:5061;transport=tls
 SET SIPDOMAIN hospice.local
 SET SIPUSERNAME ""
